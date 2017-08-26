@@ -152,12 +152,24 @@ textarea {
     margin-left: 80px;
 }
 
+a.movil{
+    color: black;
+    margin-right: 10px;
+}
+
+a.movil:hover{
+    color: black;
+}
 
 
 
+.imagen-mia{
 
+}
 
-
+.navbar-toggler-icon{
+    color: pink!important;
+}
 
 
 
