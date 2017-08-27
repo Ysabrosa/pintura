@@ -94,7 +94,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+html{
+    box-sizing: border-box;
+}
 
 .fondo{
     background-image: url(../img/fondo1.jpg);
@@ -139,7 +141,7 @@ textarea {
 
 .nav-link.menu:hover{
     color: rgb(145, 47, 127)!important;
-    padding-right:15px!important;
+    
 }
 .yo h3{
       font-family: 'Playfair Display', serif;
@@ -161,17 +163,57 @@ a.movil:hover{
     color: black;
 }
 
+section.footer{
+    margin-top: 20px;
+}
+ .footer{
+    margin-right: 10px;
+    font-size: 11px;
+ }
+ .footer i{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-right: 2px;
+    color: black;
+ }
 
+ .card{
+    position: relative;
+    
 
-.imagen-mia{
+    
+     }
+.card img{
+    filter: gray;
+    -webkit-filter:grayscale(1);
+    -webkit-transition:all .5s ease-in-out;
+}
+.card img:hover{
+    -webkit-filter:grayscale(0);
+    cursor: pointer;
+    -webkit-transform: scale(1);
+
+}
+.card p{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 10px;
+    margin: 0;
+    background-color: rgba(0,0,0,.55);
+    text-align: left;
+    width: 100%;
+    color:white;
+    -webkit-transition:all .5s ease-in-out;
+    
+       font-family: 'Playfair Display', serif;
 
 }
 
-.navbar-toggler-icon{
-    color: pink!important;
+.card:hover p{
+    bottom: -80px;
+    opacity: 0;
 }
-
-
 
 
 
