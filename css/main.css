@@ -165,6 +165,7 @@ p, li, .footer{
 }
 .yo img{
     border-radius: 100%;
+
 }
 
 .right{
@@ -254,11 +255,16 @@ section.footer{
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:rgb(188, 37, 91)
+    color:rgb(188, 37, 91);
+    font-weight: bold;
 }
 
 .footer i{
     color: #ff6666;
+}
+
+.movil i{
+    font-size: 1em;
 }
 
 
