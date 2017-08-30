@@ -99,6 +99,7 @@ html{
 }
 ul li{
     list-style: none;
+    line-height: 35px;
 }
 .fondo{
 
@@ -120,10 +121,12 @@ p, li, .footer{
 
 .formulario button{
     background-color:rgb(188, 37, 91);
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
     border:none;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.8px;
 }
 .formulario button:hover{
     background-color: rgb(209, 16, 86);
@@ -144,19 +147,21 @@ p, li, .footer{
   
    font-family: 'Playfair Display', serif;
    font-weight: lighter!important;
-    font-size: 18px;
+    font-size: 16px;
     color: black!important;
     transition: all .5s ease;
+    letter-spacing: 1.5px;
 }
 
 .nav-link.menu:hover{
-    color: rgb(145, 47, 127)!important;
-    
+    color: rgb(188, 37, 91)!important;
+
 }
  h3{
       font-family: 'Playfair Display', serif!important;
       font-weight: lighter;
       font-size: 3em!important;
+      letter-spacing: 1.8px;
 }
 .yo img{
     border-radius: 100%;
@@ -179,8 +184,9 @@ section.footer{
     margin-top: 20px;
 }
  .footer{
+    font-weight: bold;
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 13px;
  }
  .footer i{
     margin-top: 5px;
@@ -244,8 +250,15 @@ section.footer{
 }
 
 .subtitulo{
-       font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(188, 37, 91)
+}
 
+.footer i{
+    color: #ff6666;
 }
 
 
