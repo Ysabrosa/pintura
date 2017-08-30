@@ -108,9 +108,16 @@ ul li{
     height: 100vh;
 
 }
+p, li, .footer{
+    font-family: 'Dosis', sans-serif;
+
+}
 .formulario{
     background-color: rgb(96, 43, 62);
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
 }
+
 .formulario button{
     background-color:rgb(188, 37, 91);
     border:none;
@@ -149,6 +156,7 @@ ul li{
  h3{
       font-family: 'Playfair Display', serif!important;
       font-weight: lighter;
+      font-size: 3em!important;
 }
 .yo img{
     border-radius: 100%;
@@ -172,7 +180,7 @@ section.footer{
 }
  .footer{
     margin-right: 10px;
-    font-size: 11px;
+    font-size: 12px;
  }
  .footer i{
     margin-top: 5px;
@@ -233,6 +241,11 @@ section.footer{
 }
 .icon-camera{
     font-size: 5em;
+}
+
+.subtitulo{
+       font-family: 'Playfair Display', serif;
+
 }
 
 
