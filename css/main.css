@@ -183,9 +183,7 @@ section.footer{
 
  .card{
     position: relative;
-    
-
-    
+    margin-bottom: 15px!important;
      }
 .card img{
     filter: gray;
@@ -226,15 +224,18 @@ section.footer{
 
 .icon-anchor{
     font-size: 5em;
-    color: #004080;
+    
+
 }
 .icon-gift{
     font-size: 5em;
-    color:#800060;
+   
 }
 .icon-camera{
     font-size: 5em;
 }
+
+
 
 
 /* ==========================================================================
