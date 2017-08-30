@@ -106,7 +106,7 @@ ul li{
     background-image: url(../img/fondo1.jpg);
     background-position:center;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 
 }
 p, li, .footer{
@@ -168,12 +168,15 @@ p, li, .footer{
 }
 
 .right{
-    margin-left: 80px;
+  
 }
 
 a.movil{
     color: black;
-    margin-right: 10px;
+   
+}
+.movil i{
+    padding-right: 10px;
 }
 
 a.movil:hover{
